@@ -4,7 +4,7 @@ require File.expand_path('../lib/version', __FILE__)
 Gem::Specification.new do |s|
   s.name        = "movie_quotes"
   s.version     = "0.0.1"
-  s.date        = "2017-02-01"
+  s.date        = "2017-02-02"
   s.summary     = "Movie Quotes"
   s.description = "Ruby client to interact with MovieQuotes API"
   s.authors     = ["Juan Roldan"]
