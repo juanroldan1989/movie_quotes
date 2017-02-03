@@ -9,7 +9,7 @@ class MovieQuotes
   attr_reader :filters
 
   def initialize
-    @filters = { "rows" => "20" }
+    @filters = {}
   end
 
   def by_actor(query)
@@ -40,6 +40,12 @@ class MovieQuotes
 
   def by_movie(query)
     apply_filter "movie", query
+
+    self
+  end
+
+  def by_page(page)
+    apply_filter "page", page
 
     self
   end
