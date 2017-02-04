@@ -15,6 +15,7 @@ A Ruby client for the [MovieQuotes API](https://movie-quotes-api.herokuapp.com)
 
 ## Features
 
+* Fetch well known quotes from more than 500 movies.
 * Intuitive API interface navigation.
 * URL generation process fully tested when applying filters for each request.
 * API integration tests recorded and fully tested using [VCR](https://github.com/vcr/vcr) gem: fast tests (first HTTP request is real and it's response is stored for future runs), deterministic (tests will continue to pass, even if you are offline, or API goes down for maintenance) and accurate (responses will contain the same headers and body you get from a real request).
@@ -32,3 +33,90 @@ or put it in your Gemfile and run `bundle install`:
 ```ruby
 gem "movie_quotes", "~> 0.0.1"
 ```
+
+## 1. Usage
+
+To start using the gem, you should get a API Key (free). Please send an email to `juanroldan1989@gmail.com`
+
+Setup the API Key within an initializer:
+
+```ruby
+# movie_quotes_initializer.rb
+
+MovieQuotes.configure do |config|
+  config.api_key = "abcd1234"
+end
+```
+
+Then create a new filter instance like so:
+
+```ruby
+filter = MovieQuotes.new
+```
+
+and then call api methods, for instance, to fetch well known movie quotes from `actors` like `Al Pacino`:
+
+```ruby
+filter.by_actor("al pacino")
+```
+
+or `charachters` like `morpheus`:
+
+```ruby
+filter.by_character("morpheus")
+```
+
+or `movies` like `Die Hard` and `actors` like `Bruce Willis`:
+
+```ruby
+filter.by_movie("die hard").by_actor("bruce willis")
+```
+
+Once applied all the filters you need, make the API call to get the quotes:
+
+```ruby
+filter.results
+```
+
+To see a full list of examples please check the <a href="https://github.com/juanroldan1989/movie_quotes/wiki">wiki</a> page.
+
+## 2. Response
+The response format is JSON by default. Results are provided as an array of objects with the following structure:
+
+```ruby
+filter = MovieQuotes.new
+filter.by_movie("die hard").by_actor("bruce willis")
+filter.results
+=> [
+  {
+    "content": "Yippie-ki-yay, motherfucker!",
+    "year": 1988,
+    "categories": [
+      "Thriller",
+      "Crime",
+      "Action"
+    ],
+    "movie": {
+      "title": "Die Hard",
+      "slug": "die-hard"
+    },
+    "character": {
+      "name": "John Mc Clane",
+      "slug": "john-mc-clane"
+    },
+    "actor": {
+      "name": "Bruce Willis",
+      "slug": "bruce-willis"
+    }
+  }
+]
+```
+
+## 3. Development
+
+Questions or problems? Please post them on the [issue tracker](https://github.com/juanroldan1989/movie_quotes/issues). You can contribute changes by forking the project and submitting a pull request. You can ensure the tests are passing by running `bundle` and `rake`.
+
+## 4. Copyright
+
+Copyright © 2017 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
+
