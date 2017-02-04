@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dev.movie-quotes.com:3000/v1/quotes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"31b03015e4835bf59b420b2c4946a697"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4a647a3d-926f-42c4-9b6c-1ed50295ddd3
+      X-Runtime:
+      - '0.074625'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '[{"id":32,"content":"After all, tomorrow is another day!","year":1939,"categories":["Romance","Drama","War"],"movie":{"title":"Gone
+        With The Wind","slug":"gone-with-the-wind"},"character":{"name":"Scarlett
+        O''hara","slug":"scarlett-o-hara"},"actor":{"name":"Vivien Leigh","slug":"vivien-leigh"}},{"id":3,"content":"I''m
+        gonna make him an offer he can''t refuse.","year":1972,"categories":["Crime","Drama"],"movie":{"title":"The
+        Godfather","slug":"the-godfather"},"character":{"name":"Vito Corleone","slug":"vito-corleone"},"actor":{"name":"Marlon
+        Brando","slug":"marlon-brando"}},{"id":5,"content":"Toto, I''ve got a feeling
+        we''re not in Kansas anymore.","year":1939,"categories":["Fantasy","Drama","Adventure"],"movie":{"title":"Wizard
+        Of Oz, The The Wizard Of Oz","slug":"wizard-of-oz-the-the-wizard-of-oz"},"character":{"name":"Dorothy
+        Gale","slug":"dorothy-gale"},"actor":{"name":"Judy Garland","slug":"judy-garland"}},{"id":6,"content":"Here''s
+        looking at you, kid.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
+        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":21,"content":"Louis,
+        I think this is the beginning of a beautiful friendship.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
+        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":29,"content":"Play
+        it, Sam. Play ''As Time Goes By.''","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Ilsa
+        Lund","slug":"ilsa-lund"},"actor":{"name":"Ingrid Bergman","slug":"ingrid-bergman"}},{"id":33,"content":"Round
+        up the usual suspects.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Capt.
+        Louis Renault","slug":"capt-louis-renault"},"actor":{"name":"Claude Rains","slug":"claude-rains"}},{"id":44,"content":"We''ll
+        always have Paris.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
+        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":7,"content":"Go
+        ahead, make my day.","year":1983,"categories":["Thriller","Action"],"movie":{"title":"Sudden
+        Impact","slug":"sudden-impact"},"character":{"name":"Harry Callahan","slug":"harry-callahan"},"actor":{"name":"Clint
+        Eastwood","slug":"clint-eastwood"}},{"id":25,"content":"I am big! It''s the
+        pictures that got small.","year":1950,"categories":["Fantasy","Drama","Adventure"],"movie":{"title":"Sunset
+        Boulevard","slug":"sunset-boulevard"},"character":{"name":"Norma Desmond","slug":"norma-desmond"},"actor":{"name":"Gloria
+        Swanson","slug":"gloria-swanson"}}]'
+    http_version: 
+  recorded_at: Sat, 04 Feb 2017 08:27:39 GMT
+recorded_with: VCR 3.0.3
