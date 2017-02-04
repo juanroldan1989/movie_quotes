@@ -1,3 +1,10 @@
+## [v0.0.1] - 2017-02-04
+
+### Added
+* "Configuration" module.
+* API results are retrieved only when API Key is set.
+* Test suite scenarios.
+
 ## [v0.0.1] - 2017-02-03
 
 ### Added

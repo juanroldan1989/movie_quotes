@@ -1,3 +1,4 @@
+require "configuration"
 require "httparty"
 require "version"
 
@@ -7,6 +8,16 @@ class MovieQuotes
   BASE_URL = "http://dev.movie-quotes.com:3000/v1/quotes".freeze
 
   attr_reader :filters
+
+  class << self
+    attr_accessor :configuration
+  end
+
+  def self.configure
+    self.configuration ||= Configuration.new
+
+    yield(configuration)
+  end
 
   def initialize
     @filters = {}
@@ -58,7 +69,7 @@ class MovieQuotes
   end
 
   def results
-    @results = HTTParty.get(url)
+    @results = HTTParty.get(url, headers: headers)
   end
 
   def url
@@ -66,6 +77,10 @@ class MovieQuotes
   end
 
   private
+
+  def api_key
+    @api_key ||= MovieQuotes.configuration.api_key
+  end
 
   def apply_filter(filter_name, value)
     filters[filter_name] = value
@@ -78,5 +93,9 @@ class MovieQuotes
 
   def get_filters
     filters.map { |k,v| "#{k}=#{v}" }.join("&")
+  end
+
+  def headers
+    { "Authorization"=>"Token token=\"#{api_key}\"" }
   end
 end

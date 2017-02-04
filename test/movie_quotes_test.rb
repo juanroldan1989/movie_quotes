@@ -1,6 +1,16 @@
 require "test_helper"
 
 describe MovieQuotes do
+  describe ".configure" do
+    before do
+      MovieQuotes.configure { |config| config.api_key = "abc123" }
+    end
+
+    it "should set main class with api_key" do
+      MovieQuotes.configuration.api_key.must_equal "abc123"
+    end
+  end
+
   before do
     @filter = MovieQuotes.new
   end
@@ -81,41 +91,52 @@ describe MovieQuotes do
   end
 
   describe "#results" do
-    it "should return an array of 'Quote' JSON objects" do
-      VCR.use_cassette("quotes") do
-        quotes = @filter.results
-        quote  = quotes[1]
 
-        quote["id"].must_equal                3
-        quote["content"].must_equal           "I'm gonna make him an offer he can't refuse."
-        quote["year"].must_equal              1972
-        quote["categories"].must_equal        ["Crime", "Drama"]
+    describe "with valid api_key" do
+      before do
+        MovieQuotes.configure do |config|
+          config.api_key = "esVsuo3NvpwBfKprvPtMJAtt"
+        end
+      end
 
-        quote["movie"]["title"].must_equal    "The Godfather"
-        quote["movie"]["slug"].must_equal     "the-godfather"
+      it "should return an array of 'Quote' JSON objects" do
+        VCR.use_cassette("quotes_valid_api_key") do
+          quotes = @filter.results
+          quote  = quotes[1]
 
-        quote["character"]["name"].must_equal "Vito Corleone"
-        quote["character"]["slug"].must_equal "vito-corleone"
+          quote["id"].must_equal                3
+          quote["content"].must_equal           "I'm gonna make him an offer he can't refuse."
 
-        quote["actor"]["name"].must_equal     "Marlon Brando"
-        quote["actor"]["slug"].must_equal     "marlon-brando"
+          quote["year"].must_equal              1972
+          quote["categories"].must_equal        ["Crime", "Drama"]
+
+          quote["movie"]["title"].must_equal    "The Godfather"
+          quote["movie"]["slug"].must_equal     "the-godfather"
+
+          quote["character"]["name"].must_equal "Vito Corleone"
+          quote["character"]["slug"].must_equal "vito-corleone"
+
+          quote["actor"]["name"].must_equal     "Marlon Brando"
+          quote["actor"]["slug"].must_equal     "marlon-brando"
+        end
+      end
+    end
+
+    describe "with invalid api_key" do
+      before do
+        MovieQuotes.configure do |config|
+          config.api_key = "xxxxxx"
+        end
+      end
+
+      it "should return error message" do
+        VCR.use_cassette("quotes_invalid_api_key") do
+          quotes = @filter.results
+
+          quotes["status"].must_equal  "error"
+          quotes["message"].must_equal "Bad credentials"
+        end
       end
     end
   end
-
-  # describe ".configure" do
-
-  #   before do
-  #     EventFindaRuby.configure do |config|
-  #       config.username = "event_finda"
-  #       config.password = "123123"
-  #     end
-  #   end
-
-  #   it "should set main class with username/password" do
-  #     EventFindaRuby.configuration.username.must_equal "event_finda"
-  #     EventFindaRuby.configuration.password.must_equal "123123"
-  #   end
-
-  # end
 end

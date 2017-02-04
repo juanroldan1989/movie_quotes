@@ -7,12 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
+      Authorization:
+      - Token token="esVsuo3NvpwBfKprvPtMJAtt"
   response:
     status:
       code: 200
@@ -31,9 +27,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4a647a3d-926f-42c4-9b6c-1ed50295ddd3
+      - 82b457bc-61b2-498b-bea8-e4ce6e6217eb
       X-Runtime:
-      - '0.074625'
+      - '0.057816'
       Vary:
       - Origin
       Transfer-Encoding:
@@ -66,5 +62,5 @@ http_interactions:
         Boulevard","slug":"sunset-boulevard"},"character":{"name":"Norma Desmond","slug":"norma-desmond"},"actor":{"name":"Gloria
         Swanson","slug":"gloria-swanson"}}]'
     http_version: 
-  recorded_at: Sat, 04 Feb 2017 08:27:39 GMT
+  recorded_at: Sat, 04 Feb 2017 09:31:46 GMT
 recorded_with: VCR 3.0.3
