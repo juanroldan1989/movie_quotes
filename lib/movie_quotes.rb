@@ -6,6 +6,7 @@ class MovieQuotes
   include HTTParty
 
   BASE_URL = "http://dev.movie-quotes.com:3000/v1/quotes".freeze
+  # BASE_URL = "https://movie-quotes-api.herokuapp.com/v1/quotes".freeze
 
   attr_reader :filters
 
