@@ -20,7 +20,7 @@ describe MovieQuotes do
   end
 
   it "should allow to see current URL" do
-    @filter.url.must_equal "http://dev.movie-quotes.com:3000/v1/quotes?"
+    @filter.url.must_equal "#{MovieQuotes::BASE_URL}?"
   end
 
   describe "#by_actor" do
@@ -95,7 +95,7 @@ describe MovieQuotes do
     describe "with valid api_key" do
       before do
         MovieQuotes.configure do |config|
-          config.api_key = "esVsuo3NvpwBfKprvPtMJAtt"
+          config.api_key = "valid_api_key"
         end
       end
 
@@ -125,7 +125,7 @@ describe MovieQuotes do
     describe "with invalid api_key" do
       before do
         MovieQuotes.configure do |config|
-          config.api_key = "xxxxxx"
+          config.api_key = "invalid_api_key"
         end
       end
 
