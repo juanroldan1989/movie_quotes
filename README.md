@@ -16,6 +16,7 @@ A Ruby client for the [MovieQuotes API](https://movie-quotes-api.herokuapp.com)
 ## Features
 
 * Fetch well known quotes from more than 500 movies.
+* Search through movie quotes by `actors`, `characters`, `movies`, `genres`, `years` and even pieces of quotes. 
 * Intuitive API interface navigation.
 * URL generation process fully tested when applying filters for each request.
 * API integration tests recorded and fully tested using [VCR](https://github.com/vcr/vcr) gem: fast tests (first HTTP request is real and it's response is stored for future runs), deterministic (tests will continue to pass, even if you are offline, or API goes down for maintenance) and accurate (responses will contain the same headers and body you get from a real request).
