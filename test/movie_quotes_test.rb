@@ -102,10 +102,11 @@ describe MovieQuotes do
       it "should return an array of 'Quote' JSON objects" do
         VCR.use_cassette("quotes_valid_api_key") do
           quotes = @filter.results
-          quote  = quotes[1]
+          quote  = quotes.first
 
-          quote["id"].must_equal                3
           quote["content"].must_equal           "I'm gonna make him an offer he can't refuse."
+          quote["image_large_url"].must_equal   "https://i.ytimg.com/vi/fmX2VzsB25s/maxresdefault.jpg"
+          quote["image_thumb_url"].must_equal   "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNfr9QAUIVSLH5ZFynapsJQ2bpduUXLnqRngNJt_81GtNMhAuF2YlEIAs"
 
           quote["year"].must_equal              1972
           quote["categories"].must_equal        ["Crime", "Drama"]

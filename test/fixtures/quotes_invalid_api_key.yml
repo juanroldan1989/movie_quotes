@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Authorization:
-      - Token token="xxxxxx"
+      - Token token="invalid_api_key"
   response:
     status:
       code: 401

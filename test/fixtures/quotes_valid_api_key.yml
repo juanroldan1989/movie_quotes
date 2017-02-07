@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Authorization:
-      - Token token="xWsWDxBanjIr4ORrbh1SPAtt"
+      - Token token="valid_api_key"
   response:
     status:
       code: 200
@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Sat, 04 Feb 2017 21:01:29 GMT
+      - Tue, 07 Feb 2017 00:53:56 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -29,13 +29,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"275af2d9ed52fbece52c4a1726161ac5"
+      - W/"df25f672249b9431f68caeccf00a2b82"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fe32fe71-b0de-4f92-916d-d6fcb27b1faf
+      - 26f8479c-5e0e-4736-8c52-fad0c52c228a
       X-Runtime:
-      - '0.119413'
+      - '0.329275'
       Vary:
       - Origin
       Transfer-Encoding:
@@ -44,31 +44,56 @@ http_interactions:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '[{"id":2,"content":"Frankly, my dear, I don''t give a damn.","year":1939,"categories":["Romance","Drama","War"],"movie":{"title":"Gone
-        With The Wind","slug":"gone-with-the-wind"},"character":{"name":"Rhett Butler","slug":"rhett-butler"},"actor":{"name":"Clark
-        Gable","slug":"clark-gable"}},{"id":3,"content":"I''m gonna make him an offer
-        he can''t refuse.","year":1972,"categories":["Crime","Drama"],"movie":{"title":"The
+      string: '[{"content":"I''m gonna make him an offer he can''t refuse.","year":1972,"categories":["Crime","Drama"],"image_large_url":"https://i.ytimg.com/vi/fmX2VzsB25s/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNfr9QAUIVSLH5ZFynapsJQ2bpduUXLnqRngNJt_81GtNMhAuF2YlEIAs","movie":{"title":"The
         Godfather","slug":"the-godfather"},"character":{"name":"Vito Corleone","slug":"vito-corleone"},"actor":{"name":"Marlon
-        Brando","slug":"marlon-brando"}},{"id":5,"content":"Toto, I''ve got a feeling
-        we''re not in Kansas anymore.","year":1939,"categories":["Fantasy","Drama","Adventure"],"movie":{"title":"Wizard
-        Of Oz, The The Wizard Of Oz","slug":"wizard-of-oz-the-the-wizard-of-oz"},"character":{"name":"Dorothy
-        Gale","slug":"dorothy-gale"},"actor":{"name":"Judy Garland","slug":"judy-garland"}},{"id":44,"content":"We''ll
-        always have Paris.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
-        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":33,"content":"Round
-        up the usual suspects.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Capt.
-        Louis Renault","slug":"capt-louis-renault"},"actor":{"name":"Claude Rains","slug":"claude-rains"}},{"id":29,"content":"Play
-        it, Sam. Play ''As Time Goes By.''","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Ilsa
-        Lund","slug":"ilsa-lund"},"actor":{"name":"Ingrid Bergman","slug":"ingrid-bergman"}},{"id":21,"content":"Louis,
-        I think this is the beginning of a beautiful friendship.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
-        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":6,"content":"Here''s
-        looking at you, kid.","year":1942,"categories":["Romance","Drama","War"],"movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
-        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"id":7,"content":"Go
-        ahead, make my day.","year":1983,"categories":["Thriller","Action"],"movie":{"title":"Sudden
-        Impact","slug":"sudden-impact"},"character":{"name":"Harry Callahan","slug":"harry-callahan"},"actor":{"name":"Clint
-        Eastwood","slug":"clint-eastwood"}},{"id":8,"content":"All right, Mr. DeMille,
-        I''m ready for my close-up.","year":1950,"categories":["Fantasy","Drama","Adventure"],"movie":{"title":"Sunset
+        Brando","slug":"marlon-brando"}},{"content":"Here''s looking at you, kid.","year":1942,"categories":["Romance","Drama","War"],"image_large_url":"https://i.ytimg.com/vi/rEWaqUVac3M/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZ786HeCKCHBAKqUKzvA6O9jv_zVWiwAE3O-aGN0dNNuRD2MbeJArfTLDN","movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
+        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}},{"content":"All
+        right, Mr. DeMille, I''m ready for my close-up.","year":1950,"categories":["Fantasy","Drama","Adventure"],"image_large_url":"https://i.ytimg.com/vi/zIcC8YJrevQ/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSbmhyi5atH0HVstHpVg0tMTacAksWKl8BEkSqdGkcIIK0MZHQ8Z4TjTQA","movie":{"title":"Sunset
         Boulevard","slug":"sunset-boulevard"},"character":{"name":"Norma Desmond","slug":"norma-desmond"},"actor":{"name":"Gloria
-        Swanson","slug":"gloria-swanson"}}]'
+        Swanson","slug":"gloria-swanson"}},{"content":"May the Force be with you.","year":1977,"categories":["Animation","Action","Adventure"],"image_large_url":"https://i.ytimg.com/vi/ySMzK4xzWhU/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ68MRkq0EdzB_6T8JUza5SWEBTduUNEWUFaA71Pj4LeakCJiAEPmwmkS0","movie":{"title":"Star
+        Wars","slug":"star-wars"},"character":{"name":"Han Solo","slug":"han-solo"},"actor":{"name":"Harrison
+        Ford","slug":"harrison-ford"}},{"content":"You talkin'' to me?","year":1976,"categories":["Crime","Drama"],"image_large_url":"https://i.ytimg.com/vi/-QWL-FwX4t4/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsrFYpPUa_qLZqvjL53JrBsWSLlfYBaC5qiXdNhDSTZZysA2U_IaK03HG3","movie":{"title":"Taxi
+        Driver","slug":"taxi-driver"},"character":{"name":"Travis Bickle","slug":"travis-bickle"},"actor":{"name":"Robert
+        De Niro","slug":"robert-de-niro"}},{"content":"Love means never having to
+        say you''re sorry.","year":1970,"categories":["Comedy","Romance"],"image_large_url":"https://i.ytimg.com/vi/B5-8_1uCzR8/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbBTl1irzgYDmqeuTPR2QsT1r0pbs4mKCxLbKl6qfOlF75m4ohZD6kRKYg","movie":{"title":"Love
+        Story","slug":"love-story"},"character":{"name":"Jennifer Cavilleri Barrett","slug":"jennifer-cavilleri-barrett"},"actor":{"name":"Ali
+        MacGraw","slug":"ali-macgraw"}},{"content":"E.T. phone home.","year":1982,"categories":["Family","Fantasy","Adventure"],"image_large_url":"https://i.ytimg.com/vi/6xZif3WmG7I/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8x6i0qwmqtliyb-1g8SVF9gk7j0S8SLNexfxcQEGJU4dZRs38UoBM-Ni3","movie":{"title":"E.T.
+        The Extra Terrestrial","slug":"e-t-the-extra-terrestrial"},"character":{"name":"E.T.","slug":"e-t"},"actor":{"name":"Pat
+        Welsh","slug":"pat-welsh"}},{"content":"They call me Mister Tibbs!","year":1967,"categories":["Mystery","Crime","Drama"],"image_large_url":"https://i.ytimg.com/vi/r0hytuh6GIk/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uOnh1pQJsuu9BmeSVxSsMmsomNuDX06p81xm6ZHzVT7W19w7xJ_hawvt","movie":{"title":"In
+        The Heat Of The Night","slug":"in-the-heat-of-the-night"},"character":{"name":"Virgil
+        Tibbs","slug":"virgil-tibbs"},"actor":{"name":"Sidney Poitier","slug":"sidney-poitier"}},{"content":"I''m
+        as mad as hell, and I''m not going to take this anymore!","year":1976,"categories":["Biography","Drama"],"image_large_url":"https://i.ytimg.com/vi/ZwMVMbmQBug/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsFCb5V4pS0taLWJwiZTDhZXD_qzzVgtmALirHoHLbicudOGFuZew-ujhH","movie":{"title":"Network","slug":"network"},"character":{"name":"Howard
+        Beale","slug":"howard-beale"},"actor":{"name":"Peter Finch","slug":"peter-finch"}},{"content":"A
+        census taker once tried to test me. I ate his liver with some fava beans and
+        a nice Chianti.","year":1991,"categories":["Thriller","Crime","Drama"],"image_large_url":"https://i.ytimg.com/vi/M1b2v_Lls3A/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQO6iO860KO8e6Qmuv_ogCKdHXdo5CgWpPioU6CF9g5FSoqbQNoXPccQJo","movie":{"title":"The
+        Silence Of The Lambs","slug":"the-silence-of-the-lambs"},"character":{"name":"Dr.
+        Hannibal Lecter","slug":"dr-hannibal-lecter"},"actor":{"name":"Anthony Hopkins","slug":"anthony-hopkins"}},{"content":"Show
+        me the money!","year":1996,"categories":["Comedy","Romance","Drama"],"image_large_url":"https://i.ytimg.com/vi/FFrag8ll85w/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4BHPV8tj8OsLdmX1FVi0y4dyHvKWy84FUIszjk-kWRrmK3ZaAxdXNaIi9","movie":{"title":"Jerry
+        Maguire","slug":"jerry-maguire"},"character":{"name":"Rod Tidwell","slug":"rod-tidwell"},"actor":{"name":"Cuba
+        Gooding, Jr.","slug":"cuba-gooding-jr"}},{"content":"I''m walking here! I''m
+        walking here!","year":1969,"categories":["Drama"],"image_large_url":"https://i.ytimg.com/vi/uOLaKY39eF0/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44psTotEFFezYBt_VmEt1tbEXXhFfCA5zUQWbNU8Ia6Mlytqfnkgf1DKX","movie":{"title":"Midnight
+        Cowboy","slug":"midnight-cowboy"},"character":{"name":"Ratso Rizzo","slug":"ratso-rizzo"},"actor":{"name":"Dustin
+        Hoffman","slug":"dustin-hoffman"}},{"content":"Play it, Sam. Play ''As Time
+        Goes By.''","year":1942,"categories":["Romance","Drama","War"],"image_large_url":"https://i.ytimg.com/vi/Do2olZ49M54/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEFlhYq2lOlVweLl8tN6TQcNUdPkDR0v4EMnpcVTqiy110U-Ky82dNbQ8","movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Ilsa
+        Lund","slug":"ilsa-lund"},"actor":{"name":"Ingrid Bergman","slug":"ingrid-bergman"}},{"content":"I
+        want to be alone.","year":1932,"categories":["Romance","Drama"],"image_large_url":"https://i.ytimg.com/vi/CSjfwTXIvZY/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTn7GiNwZlwJ8NeFoQaLbfzqgAuBNzejPjhiSmhiHy03Sb-HJPPrdpOBOXc","movie":{"title":"Grand
+        Hotel","slug":"grand-hotel"},"character":{"name":"Grusinskaya","slug":"grusinskaya"},"actor":{"name":"Greta
+        Garbo","slug":"greta-garbo"}},{"content":"You know how to whistle, don''t
+        you, Steve? You just put your lips together and blow.","year":1944,"categories":["Romance","Thriller","Adventure"],"image_large_url":"http://www.memorabletv.com/wp-content/uploads/2015/10/to-have-and-have-not-bacall-whistle.png","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8y9imOKfP3DJQZigVeVdqlsfImyqPSUKqifBpbFV9PFxoHZRzeQVKwwLU","movie":{"title":"To
+        Have And Have Not","slug":"to-have-and-have-not"},"character":{"name":"Marie
+        Slim Browning","slug":"marie-slim-browning"},"actor":{"name":"Lauren Bacall","slug":"lauren-bacall"}},{"content":"I''ll
+        be back.","year":1984,"categories":["Action","Sci-Fi"],"image_large_url":"https://i.ytimg.com/vi/XY9jQq7U85c/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrid4qx8sWd-cwpuBbjOHNT-xpszwJdyoX2Cm1_cAHP9rSw8NJipv5BgE","movie":{"title":"The
+        Terminator","slug":"the-terminator"},"character":{"name":"The Terminator","slug":"the-terminator"},"actor":{"name":"Arnold
+        Schwarzenegger","slug":"arnold-schwarzenegger"}},{"content":"If you build
+        it, he will come.","year":1989,"categories":["Family","Fantasy","Drama"],"image_large_url":"https://i.ytimg.com/vi/5Ay5GqJwHF8/maxresdefault.jpg","image_thumb_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7jDSXiHxcAq-_C03HxKhyYbQLojlpBz1NDJCuiop_XoI3NVMMFaNf0sw","movie":{"title":"Field
+        Of Dreams","slug":"field-of-dreams"},"character":{"name":"Shoeless Joe Jackson","slug":"shoeless-joe-jackson"},"actor":{"name":"Ray
+        Liotta (voice)","slug":"ray-liotta-voice"}},{"content":"Mama always said life
+        was like a box of chocolates. You never know what you''re gonna get.","year":1994,"categories":["Romance","Drama"],"image_large_url":"https://i.ytimg.com/vi/CJh59vZ8ccc/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsaUn1KfKo6X-wJa4k5B6R70_07mACy7f9nXr3jDCDPn3KN2iiLzFuXT0","movie":{"title":"Forrest
+        Gump","slug":"forrest-gump"},"character":{"name":"Forrest Gump","slug":"forrest-gump"},"actor":{"name":"Tom
+        Hanks","slug":"tom-hanks"}},{"content":"Plastics.","year":1967,"categories":["Comedy","Romance","Drama"],"image_large_url":"https://i.ytimg.com/vi/PSxihhBzCjk/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTdcDVYKF6TbHvCg3fMn5n4CqeXMsblkZsmTxHYyyPFxMYrY5RsjXRj3R1n","movie":{"title":"The
+        Graduate","slug":"the-graduate"},"character":{"name":"Mr. Maguire","slug":"mr-maguire"},"actor":{"name":"Walter
+        Brooke","slug":"walter-brooke"}},{"content":"We''ll always have Paris.","year":1942,"categories":["Romance","Drama","War"],"image_large_url":"https://i.ytimg.com/vi/FpoyshqB8-o/hqdefault.jpg","image_thumb_url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpgjstEVjU7kXVLYH4gn2AfrG1B-p38IVCNt30aBXmiGWFmVaWwdF0wT1J","movie":{"title":"Casablanca","slug":"casablanca"},"character":{"name":"Rick
+        Blaine","slug":"rick-blaine"},"actor":{"name":"Humphrey Bogart","slug":"humphrey-bogart"}}]'
     http_version: 
-  recorded_at: Sat, 04 Feb 2017 21:00:11 GMT
+  recorded_at: Tue, 07 Feb 2017 00:52:36 GMT
 recorded_with: VCR 3.0.3

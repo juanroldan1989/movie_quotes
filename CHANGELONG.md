@@ -1,3 +1,8 @@
+## [v0.0.2] - 2017-02-06
+
+### Added
+* Image URLs fields added within each quote: "large" and "thumb" sizes.
+
 ## [v0.0.1] - 2017-02-04
 
 ### Added
