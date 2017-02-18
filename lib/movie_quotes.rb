@@ -64,6 +64,12 @@ class MovieQuotes
     self
   end
 
+  def by_rating(rating)
+    apply_filter "rating", rating
+
+    self
+  end
+
   # 1999 | [1999, 2005] | ["1999", "2005"]
   def by_year(query)
     apply_filter_list "years", query

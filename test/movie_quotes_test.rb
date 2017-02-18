@@ -74,6 +74,13 @@ describe MovieQuotes do
     end
   end
 
+  describe "#by_rating" do
+    it "should contain 'rating' param inside URL" do
+      @filter.by_rating(5)
+      @filter.url.must_include "rating=5"
+    end
+  end
+
   describe "#by_year" do
     describe "filtering by a single year" do
       it "should contain 'year' param inside URL" do
@@ -107,9 +114,9 @@ describe MovieQuotes do
           quote["content"].must_equal           "I'm gonna make him an offer he can't refuse."
           quote["image_large_url"].must_equal   "https://i.ytimg.com/vi/fmX2VzsB25s/maxresdefault.jpg"
           quote["image_thumb_url"].must_equal   "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNfr9QAUIVSLH5ZFynapsJQ2bpduUXLnqRngNJt_81GtNMhAuF2YlEIAs"
-
           quote["year"].must_equal              1972
           quote["categories"].must_equal        ["Crime", "Drama"]
+          quote["rating"].must_equal            3
 
           quote["movie"]["title"].must_equal    "The Godfather"
           quote["movie"]["slug"].must_equal     "the-godfather"
