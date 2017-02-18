@@ -84,6 +84,10 @@ To see a full list of examples please check the <a href="https://github.com/juan
 ## 2. Response
 The response format is JSON by default. Results are provided as an array of objects with the following structure:
 
+<div align="left">
+  <img src="https://i.ytimg.com/vi/YfpDSNNgYhI/hqdefault.jpg" alt="movie_quotes die hard" />
+</div>
+
 ```ruby
 filter = MovieQuotes.new
 filter.by_movie("die hard").by_actor("bruce willis")
@@ -91,12 +95,15 @@ filter.results
 => [
   {
     "content": "Yippie-ki-yay, motherfucker!",
+    "rating": 5,
     "year": 1988,
     "categories": [
       "Thriller",
       "Crime",
       "Action"
     ],
+    "image_large_url": "https://i.ytimg.com/vi/YfpDSNNgYhI/hqdefault.jpg",
+    "image_thumb_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlniyMNhCV4h8UF9zn6Lka4s-OTU_j7Br43Kp5OR7eGljOAIpDXKystfQ",
     "movie": {
       "title": "Die Hard",
       "slug": "die-hard"
