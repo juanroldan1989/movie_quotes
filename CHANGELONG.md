@@ -1,3 +1,8 @@
+## [v0.0.3] - 2017-02-18
+
+### Added
+* "Rating" field add to each quote. Value goes from "1" to "5" (stars).
+
 ## [v0.0.2] - 2017-02-06
 
 ### Added

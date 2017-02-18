@@ -3,8 +3,8 @@ require File.expand_path('../lib/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "movie_quotes"
-  s.version     = "0.0.2"
-  s.date        = "2017-02-06"
+  s.version     = "0.0.3"
+  s.date        = "2017-02-18"
   s.summary     = "Movie Quotes"
   s.description = "Ruby client to interact with MovieQuotes API"
   s.authors     = ["Juan Roldan"]
