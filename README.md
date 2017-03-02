@@ -11,7 +11,7 @@
 [![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/movie_quotes/0.0.3?type=total&color=brightgreen)](https://rubygems.org/gems/movie_quotes)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-A Ruby client for [MovieQuotes](https://movie-quotes-dashboard.herokuapp.com) API
+A Ruby client for [MovieQuotes](https://movie-quotes-app.herokuapp.com) API
 
 ## Features
 
