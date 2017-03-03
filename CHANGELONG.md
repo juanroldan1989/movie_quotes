@@ -1,3 +1,8 @@
+## [v0.1.0] - 2017-03-03
+
+### Changed
+* API endpoint updated to: `https://movie-quotes-app.herokuapp.com/api/v1/quotes`
+
 ## [v0.0.3] - 2017-02-18
 
 ### Added

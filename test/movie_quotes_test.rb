@@ -111,18 +111,18 @@ describe MovieQuotes do
           quotes = @filter.results
           quote  = quotes.first
 
-          quote["content"].must_equal           "I'm gonna make him an offer he can't refuse."
-          quote["image_large_url"].must_equal   "https://i.ytimg.com/vi/fmX2VzsB25s/maxresdefault.jpg"
-          quote["image_thumb_url"].must_equal   "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNfr9QAUIVSLH5ZFynapsJQ2bpduUXLnqRngNJt_81GtNMhAuF2YlEIAs"
-          quote["year"].must_equal              1972
+          quote["content"].must_equal           "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am."
+          quote["image_large_url"].must_equal   "https://i.ytimg.com/vi/efHzGxEzDQA/hqdefault.jpg"
+          quote["image_thumb_url"].must_equal   "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTPTOHN-RYJMYyxbaInxscNY0VrH0yiZATI8nndT6bokRGr5AucuGSYkXE"
+          quote["year"].must_equal              1954
           quote["categories"].must_equal        ["Crime", "Drama"]
-          quote["rating"].must_equal            3
+          quote["rating"].must_equal            1
 
-          quote["movie"]["title"].must_equal    "The Godfather"
-          quote["movie"]["slug"].must_equal     "the-godfather"
+          quote["movie"]["title"].must_equal    "On The Waterfront"
+          quote["movie"]["slug"].must_equal     "on-the-waterfront"
 
-          quote["character"]["name"].must_equal "Vito Corleone"
-          quote["character"]["slug"].must_equal "vito-corleone"
+          quote["character"]["name"].must_equal "Terry Malloy"
+          quote["character"]["slug"].must_equal "terry-malloy"
 
           quote["actor"]["name"].must_equal     "Marlon Brando"
           quote["actor"]["slug"].must_equal     "marlon-brando"
