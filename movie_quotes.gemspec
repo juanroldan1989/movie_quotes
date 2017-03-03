@@ -3,10 +3,10 @@ require File.expand_path('../lib/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "movie_quotes"
-  s.version     = "0.0.3"
-  s.date        = "2017-02-18"
+  s.version     = "0.1.0"
+  s.date        = "2017-03-03"
   s.summary     = "Movie Quotes"
-  s.description = "Ruby client to interact with MovieQuotes API"
+  s.description = "Ruby client to interact with MovieQuotes API - http://movie-quotes-app.herokuapp.com/"
   s.authors     = ["Juan Roldan"]
   s.email       = "juanroldan1989@gmail.com"
   s.files       = Dir["{lib}/**/*"]

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    movie_quotes (0.0.3)
+    movie_quotes (0.1.0)
       httparty (~> 0.14.0)
 
 GEM
