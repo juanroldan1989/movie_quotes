@@ -5,7 +5,7 @@ class MovieQuotes
   include HTTParty
 
   # testing purposes
-  # BASE_URL = "http://dev.movie-quotes.com:3000/v1/quotes".freeze
+  # BASE_URL = "http://dev.movie-quotes.com:3000/api/v1/quotes".freeze
 
   BASE_URL = "https://movie-quotes-app.herokuapp.com/api/v1/quotes".freeze
 
@@ -59,6 +59,12 @@ class MovieQuotes
 
   def by_page(page)
     apply_filter "page", page
+
+    self
+  end
+
+  def by_random(count=1)
+    apply_filter "random", count
 
     self
   end

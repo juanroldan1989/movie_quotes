@@ -74,6 +74,18 @@ describe MovieQuotes do
     end
   end
 
+  describe "#by_random" do
+    it "should default 'random' param to '1' when no value is provided" do
+      @filter.by_random
+      @filter.url.must_include "random=1"
+    end
+
+    it "should contain 'random' param inside URL" do
+      @filter.by_random(5)
+      @filter.url.must_include "random=5"
+    end
+  end
+
   describe "#by_rating" do
     it "should contain 'rating' param inside URL" do
       @filter.by_rating(5)

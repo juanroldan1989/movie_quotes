@@ -1,3 +1,8 @@
+## [v0.1.2] - 2017-06-25
+
+### Added
+* "by_random" API method allows fetching random quotes.
+
 ## [v0.1.1] - 2017-06-25
 
 ### Changed
