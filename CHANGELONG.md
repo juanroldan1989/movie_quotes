@@ -1,3 +1,8 @@
+## [v0.1.1] - 2017-06-25
+
+### Changed
+* "HTTParty" ruby gem version updated to "0.15.5".
+
 ## [v0.1.0] - 2017-03-03
 
 ### Changed

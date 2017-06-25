@@ -1,9 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
-require File.expand_path('../lib/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "movie_quotes"
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
   s.date        = "2017-03-03"
   s.summary     = "Movie Quotes"
   s.description = "Ruby client to interact with MovieQuotes API - http://movie-quotes-app.herokuapp.com/"
@@ -15,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.1.2"
 
-  s.add_dependency "httparty", "~> 0.14.0"
+  s.add_dependency "httparty", "~> 0.15.5"
 
   s.add_development_dependency "vcr",     "~> 3.0.3"
   s.add_development_dependency "webmock", "~> 2.3.2"

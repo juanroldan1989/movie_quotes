@@ -8,7 +8,7 @@
 [![Build Status](https://travis-ci.org/juanroldan1989/movie_quotes.svg?branch=master)](https://travis-ci.org/juanroldan1989/movie_quotes)
 [![Dependency Status](https://gemnasium.com/badges/github.com/juanroldan1989/movie_quotes.svg)](https://gemnasium.com/github.com/juanroldan1989/movie_quotes)
 [![Coverage Status](https://coveralls.io/repos/github/juanroldan1989/movie_quotes/badge.svg?branch=master)](https://coveralls.io/github/juanroldan1989/movie_quotes?branch=master)
-[![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/movie_quotes/0.1.0?type=total&color=brightgreen)](https://rubygems.org/gems/movie_quotes)
+[![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/movie_quotes/0.1.1?type=total&color=brightgreen)](https://rubygems.org/gems/movie_quotes)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 A Ruby client for [MovieQuotes](https://movie-quotes-app.herokuapp.com) API
@@ -32,7 +32,7 @@ gem install movie_quotes
 or put it in your Gemfile and run `bundle install`:
 
 ```ruby
-gem "movie_quotes", "~> 0.1.0"
+gem "movie_quotes", "~> 0.1.1"
 ```
 
 ## 1. Usage

@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    movie_quotes (0.1.0)
-      httparty (~> 0.14.0)
+    movie_quotes (0.1.1)
+      httparty (~> 0.15.5)
 
 GEM
   remote: https://rubygems.org/
@@ -19,7 +19,7 @@ GEM
       safe_yaml (~> 1.0.0)
     docile (1.1.5)
     hashdiff (0.3.2)
-    httparty (0.14.0)
+    httparty (0.15.5)
       multi_xml (>= 0.5.2)
     json (2.0.3)
     multi_xml (0.6.0)

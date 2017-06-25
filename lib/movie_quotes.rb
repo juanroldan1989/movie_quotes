@@ -1,6 +1,5 @@
 require "configuration"
 require "httparty"
-require "version"
 
 class MovieQuotes
   include HTTParty
