@@ -2,8 +2,8 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "movie_quotes"
-  s.version     = "0.1.2"
-  s.date        = "2017-06-25"
+  s.version     = "0.1.3"
+  s.date        = "2018-05-31"
   s.summary     = "Movie Quotes"
   s.description = "Ruby client to interact with MovieQuotes API - http://movie-quotes-app.herokuapp.com/"
   s.authors     = ["Juan Roldan"]

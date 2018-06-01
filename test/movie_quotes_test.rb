@@ -67,6 +67,13 @@ describe MovieQuotes do
     end
   end
 
+  describe "#by_multiple" do
+    it "should contain 'multiple' param inside URL" do
+      @filter.by_multiple("take")
+      @filter.url.must_include "multiple=take"
+    end
+  end
+
   describe "#by_page" do
     it "should contain 'page' param inside URL" do
       @filter.by_page(2)

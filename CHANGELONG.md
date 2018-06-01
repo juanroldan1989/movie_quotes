@@ -1,3 +1,8 @@
+## [v0.1.3] - 2018-05-31
+
+### Added
+* "by_multiple" API method allows filtering quotes by multiple scopes at a time.
+
 ## [v0.1.2] - 2017-06-25
 
 ### Added

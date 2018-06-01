@@ -1,7 +1,7 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/media/Store/Juan/projects/movie_quotes/lib/movie_quotes.rb": [
+      "/home/juan/projects/movie_quotes/lib/movie_quotes.rb": [
         1,
         1,
         null,
@@ -26,7 +26,7 @@
         null,
         null,
         1,
-        17,
+        18,
         null,
         null,
         1,
@@ -68,16 +68,9 @@
         null,
         null,
         1,
-        2,
-        null,
-        2,
-        null,
-        null,
-        1,
         1,
         null,
         1,
-        null,
         null,
         null,
         1,
@@ -87,21 +80,34 @@
         null,
         null,
         1,
-        2,
-        null,
+        1,
         null,
         1,
-        15,
         null,
         null,
-        1,
         null,
         1,
         2,
         null,
+        2,
+        null,
         null,
         1,
-        8,
+        2,
+        null,
+        null,
+        1,
+        16,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        9,
         null,
         null,
         1,
@@ -110,7 +116,7 @@
         null,
         null,
         1,
-        27,
+        29,
         null,
         null,
         1,
@@ -118,7 +124,7 @@
         null,
         null
       ],
-      "/media/Store/Juan/projects/movie_quotes/lib/configuration.rb": [
+      "/home/juan/projects/movie_quotes/lib/configuration.rb": [
         1,
         null,
         1,
@@ -128,7 +134,7 @@
         null,
         null
       ],
-      "/media/Store/Juan/projects/movie_quotes/test/configuration_test.rb": [
+      "/home/juan/projects/movie_quotes/test/configuration_test.rb": [
         1,
         null,
         1,
@@ -154,7 +160,7 @@
         null,
         null
       ],
-      "/media/Store/Juan/projects/movie_quotes/test/movie_quotes_test.rb": [
+      "/home/juan/projects/movie_quotes/test/movie_quotes_test.rb": [
         1,
         null,
         1,
@@ -169,7 +175,7 @@
         null,
         null,
         1,
-        17,
+        18,
         null,
         null,
         1,
@@ -200,6 +206,13 @@
         1,
         1,
         null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -319,6 +332,6 @@
         null
       ]
     },
-    "timestamp": 1498426354
+    "timestamp": 1527814526
   }
 }

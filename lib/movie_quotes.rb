@@ -57,6 +57,12 @@ class MovieQuotes
     self
   end
 
+  def by_multiple(query)
+    apply_filter "multiple", query
+
+    self
+  end
+
   def by_page(page)
     apply_filter "page", page
 
