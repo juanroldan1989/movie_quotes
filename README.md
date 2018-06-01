@@ -126,5 +126,5 @@ Questions or problems? Please post them on the [issue tracker](https://github.co
 
 ## 4. Copyright
 
-Copyright © 2017 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
+Copyright © 2018 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
 
