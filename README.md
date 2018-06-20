@@ -142,3 +142,4 @@ Developers from around the world using MovieQuotes API in their projects:
 * Joel Landgraf Filho <joel.landgraf@gmail.com> - used on "Random Quote Generator" freeCodeCamp
 * Radha krishnan Narayanan <maverickct@gmail.com>
 * Alessandro Boscarato <Alessandro.Boscarato@hotmail.com> - developing a sort of "quiz" where a player is supposed to guess who said something and I tought that quotes from movies would be much easier for everyone than other random quotes.
+* Jeremy Sexton <jeremy@jeremysexton.net> - building some workflows for personal use with the Workflow app on iOS
