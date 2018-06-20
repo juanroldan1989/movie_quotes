@@ -130,3 +130,15 @@ Questions or problems? Please post them on the [issue tracker](https://github.co
 
 Copyright © 2018 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
 
+## 5. Projects
+
+Developers from around the world using MovieQuotes API in their projects:
+
+* Oliver Queen <test.oliver.q@hotmail.com>
+* Augusto Martinez <augustomartinez2a@gmail.com> - developing a non-commercial app about movies
+* Julio César Riera D'Angelo <juliocesarrd7@gmail.com> - building a Discord bot
+* Thomas.Donohue <Thomas.Donohue@protonmail.com> - developing a Google Assistant action to interact with the API
+* Maxim Windels <mmaximm99@gmail.com>
+* Joel Landgraf Filho <joel.landgraf@gmail.com> - used on "Random Quote Generator" freeCodeCamp
+* Radha krishnan Narayanan <maverickct@gmail.com>
+* Alessandro Boscarato <Alessandro.Boscarato@hotmail.com> - developing a sort of "quiz" where a player is supposed to guess who said something and I tought that quotes from movies would be much easier for everyone than other random quotes.
