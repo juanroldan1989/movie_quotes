@@ -37,7 +37,9 @@ gem "movie_quotes", "~> 0.1.3"
 
 ## 1. Usage
 
-To start using the gem, you should get a API Key (free). Please send an email to `juanroldan1989@gmail.com`
+To start using the gem, you should get an API Key (free).
+
+Once completed this quick [form](https://docs.google.com/forms/d/e/1FAIpQLSeavfLgmnF2haKsaNlp8hYA4DSqdwb1ZMg5Xse7a-mFW4bZIg/viewform) the API Key will be sent to you by Juan Roldan (`juanroldan1989@gmail.com`)
 
 Setup the API Key within an initializer:
 
