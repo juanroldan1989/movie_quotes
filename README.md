@@ -145,3 +145,4 @@ Developers from around the world using MovieQuotes API in their projects:
 * Jeremy Sexton <jeremy@jeremysexton.net> - building some workflows for personal use with the Workflow app on iOS
 * Bill Bauer <bbauer19@gmail.com> - Testing a project for summer program
 * Todor Dimitrov <todor.velichkov.dimitrov@gmail.com> - building a site about movies and tv series
+* Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :) 
