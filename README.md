@@ -132,7 +132,7 @@ Copyright © 2018 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan19
 
 ## 5. Projects
 
-Developers from around the world using MovieQuotes API in their projects:
+Developers around the world using MovieQuotes API on their projects:
 
 * Oliver Queen <test.oliver.q@hotmail.com>
 * Augusto Martinez <augustomartinez2a@gmail.com> - developing a non-commercial app about movies
@@ -145,4 +145,5 @@ Developers from around the world using MovieQuotes API in their projects:
 * Jeremy Sexton <jeremy@jeremysexton.net> - building some workflows for personal use with the Workflow app on iOS
 * Bill Bauer <bbauer19@gmail.com> - Testing a project for summer program
 * Todor Dimitrov <todor.velichkov.dimitrov@gmail.com> - building a site about movies and tv series
-* Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :) 
+* Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :)
+* Travon Campbell <travonlcampbell@gmail.com> - developing a weather website for portfolio - https://travzforall.github.io/weatherman/
