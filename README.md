@@ -147,3 +147,4 @@ Developers around the world using MovieQuotes API on their projects:
 * Todor Dimitrov <todor.velichkov.dimitrov@gmail.com> - building a site about movies and tv series
 * Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :)
 * Travon Campbell <travonlcampbell@gmail.com> - developing a weather website for portfolio - https://travzforall.github.io/weatherman/
+* Daniel Ovelheiro <daniel.ovelheiro@gmail.com> - I am IT student and I developing a project for a course. I would love to have an API key for your Movie Quotes app, so I could make small searches, based in the movie name, to retrieve some famous quotes from that movie.
