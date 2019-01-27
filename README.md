@@ -134,13 +134,10 @@ Copyright © 2018 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan19
 
 Developers around the world using MovieQuotes API on their projects:
 
-* Oliver Queen <test.oliver.q@hotmail.com>
 * Augusto Martinez <augustomartinez2a@gmail.com> - developing a non-commercial app about movies
 * Julio César Riera D'Angelo <juliocesarrd7@gmail.com> - building a Discord bot
 * Thomas.Donohue <Thomas.Donohue@protonmail.com> - developing a Google Assistant action to interact with the API
-* Maxim Windels <mmaximm99@gmail.com>
 * Joel Landgraf Filho <joel.landgraf@gmail.com> - used on "Random Quote Generator" freeCodeCamp
-* Radha krishnan Narayanan <maverickct@gmail.com>
 * Alessandro Boscarato <Alessandro.Boscarato@hotmail.com> - developing a sort of "quiz" where a player is supposed to guess who said something and I tought that quotes from movies would be much easier for everyone than other random quotes
 * Jeremy Sexton <jeremy@jeremysexton.net> - building some workflows for personal use with the Workflow app on iOS
 * Bill Bauer <bbauer19@gmail.com> - Testing a project for summer program
@@ -148,3 +145,8 @@ Developers around the world using MovieQuotes API on their projects:
 * Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :)
 * Travon Campbell <travonlcampbell@gmail.com> - developing a weather website for portfolio - https://travzforall.github.io/weatherman/
 * Daniel Ovelheiro <daniel.ovelheiro@gmail.com> - I am IT student and I developing a project for a course. I would love to have an API key for your Movie Quotes app, so I could make small searches, based in the movie name, to retrieve some famous quotes from that movie.
+* Joze Cigl <ciganizmb@gmail.com> - School project, it will display movie info and showtimes in cinemas asweel as quotes from actors
+* Brytner Evangelista <brytnerevangelista@gmail.com> - A JavaScript/React project built as part of the requirements for completion of the Javascript/React course at Code Louisville: https://github.com/brevans25/Vide-Video
+* Asaf Davidov <davidovasaf.94@gmail.com> - Movie Trivia Game for the School I am studying at.
+* Mikael Kalstad <mikaelk@live.no> - Random Quote machine (FreeCodeCamp course project)
+* Erdem Inan <erdem_inan@outlook.be> - The API will be use for a practicing application. An intern will come in my compagny in next week. He will build a simple app using this api
