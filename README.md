@@ -126,27 +126,27 @@ filter.results
 
 Questions or problems? Please post them on the [issue tracker](https://github.com/juanroldan1989/movie_quotes/issues). You can contribute changes by forking the project and submitting a pull request. You can ensure the tests are passing by running `bundle` and `rake`.
 
-## 4. Copyright
+## 4. Projects
 
-Copyright © 2018 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
+Developers around the world using **MovieQuotes** API with their projects:
 
-## 5. Projects
+| pic | @mention | area |
+|---|---|---|
+| ![@djibba22](https://avatars0.githubusercontent.com/u/7789098?s=64) | [@djibba22](https://github.com/djibba22) | building some workflows for personal use with the Workflow app on iOS |
+| ![@snowfrogdev](https://avatars2.githubusercontent.com/u/22530235?s=64) | [@snowfrogdev](https://github.com/snowfrogdev) | developing a non-commercial app about movies |
+| ![@jargoglesara](https://avatars2.githubusercontent.com/u/54005403?s=64) | [@jargoglesara](https://github.com/jargoglesara) | developing a Google Assistant action to interact with the API |
+| ![@GregJacobs82](https://avatars1.githubusercontent.com/u/10404159?s=64) | [@GregJacobs82](https://github.com/GregJacobs82) | developing a sort of "quiz" where a player is supposed to guess who said something and I tought that quotes from movies would be much easier for everyone than other random quotes |
+| ![@eDubrovsky](https://avatars0.githubusercontent.com/u/46897754?s=64) | [@eDubrovsky](https://github.com/eDubrovsky) | practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :) |
+| ![@pyremell](https://avatars2.githubusercontent.com/u/8838921?s=64) | [@pyremell](https://github.com/pyremell) | I am IT student and I developing a project for a course. I would love to have an API key for your Movie Quotes app, so I could make small searches, based in the movie name, to retrieve some famous quotes from that movie. |
+| ![@shmlkv](https://avatars0.githubusercontent.com/u/9050229?s=64) | [@shmlkv](https://github.com/shmlkv) | School project, it will display movie info and showtimes in cinemas asweel as quotes from actors |
+| ![@KaiRichardson](https://avatars0.githubusercontent.com/u/11099512?s=64) | [@KaiRichardson](https://github.com/KaiRichardson) | A JavaScript/React project built as part of the requirements for completion of the Javascript/React course at Code Louisville: https://github.com/brevans25/Vide-Video |
+| ![@alexandershin](https://avatars0.githubusercontent.com/u/39719194?s=64) | [@alexandershin](https://github.com/alexandershin) | Random Quote machine (FreeCodeCamp course project) |
+| ![@alex-perez](https://avatars0.githubusercontent.com/u/4401902?s=64) | [@alex-perez](https://github.com/alex-perez) | The API will be use for a practicing application. An intern will come in my compagny in next week. He will build a simple app using this api |
+| ![@shadowM8](https://avatars0.githubusercontent.com/u/42487062?s=64) | [@shadowM8](https://github.com/shadowM8) | I want to generate random quotes to show on a daily basis for my school project |
+| ![@AsafDavidov](https://avatars3.githubusercontent.com/u/29575862?s=64) | [@AsafDavidov](https://github.com/AsafDavidov) | Movie Trivia Game for the School I am studying at. |
+| ![@suhanw](https://avatars2.githubusercontent.com/u/27381522?s=64) | [@suhanw](https://github.com/suhanw) | I'm integrating your API with and React.js and Redux framework. |
+| ![@denisbobovnik](https://avatars1.githubusercontent.com/u/34263948?s=64) | [@denisbobovnik](https://github.com/denisbobovnik) | learning about APIs and making requests with Ruby : ) |
 
-Developers around the world using MovieQuotes API on their projects:
+## 5. Copyright
 
-* Augusto Martinez <augustomartinez2a@gmail.com> - developing a non-commercial app about movies
-* Julio César Riera D'Angelo <juliocesarrd7@gmail.com> - building a Discord bot
-* Thomas.Donohue <Thomas.Donohue@protonmail.com> - developing a Google Assistant action to interact with the API
-* Joel Landgraf Filho <joel.landgraf@gmail.com> - used on "Random Quote Generator" freeCodeCamp
-* Alessandro Boscarato <Alessandro.Boscarato@hotmail.com> - developing a sort of "quiz" where a player is supposed to guess who said something and I tought that quotes from movies would be much easier for everyone than other random quotes
-* Jeremy Sexton <jeremy@jeremysexton.net> - building some workflows for personal use with the Workflow app on iOS
-* Bill Bauer <bbauer19@gmail.com> - Testing a project for summer program
-* Todor Dimitrov <todor.velichkov.dimitrov@gmail.com> - building a site about movies and tv series
-* Toth Aniko Monika <animoni@gmail.com> - practicing API's and gem documentation's in Rails (newbie lvl), and I was searching on rubygems.org when I found yours. Looks straight forward to use :)
-* Travon Campbell <travonlcampbell@gmail.com> - developing a weather website for portfolio - https://travzforall.github.io/weatherman/
-* Daniel Ovelheiro <daniel.ovelheiro@gmail.com> - I am IT student and I developing a project for a course. I would love to have an API key for your Movie Quotes app, so I could make small searches, based in the movie name, to retrieve some famous quotes from that movie.
-* Joze Cigl <ciganizmb@gmail.com> - School project, it will display movie info and showtimes in cinemas asweel as quotes from actors
-* Brytner Evangelista <brytnerevangelista@gmail.com> - A JavaScript/React project built as part of the requirements for completion of the Javascript/React course at Code Louisville: https://github.com/brevans25/Vide-Video
-* Asaf Davidov <davidovasaf.94@gmail.com> - Movie Trivia Game for the School I am studying at.
-* Mikael Kalstad <mikaelk@live.no> - Random Quote machine (FreeCodeCamp course project)
-* Erdem Inan <erdem_inan@outlook.be> - The API will be use for a practicing application. An intern will come in my compagny in next week. He will build a simple app using this api
+Copyright © 2020 Juan Roldan. See [LICENSE.txt](https://github.com/juanroldan1989/movie_quotes/blob/master/LICENSE.txt) for further details.
