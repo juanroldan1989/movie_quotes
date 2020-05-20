@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rake", "~> 12.0.0"
+gem "rake", "~> 12.3.3"
 
 group :metrics do
   gem "coveralls", "~> 0.8.17"
