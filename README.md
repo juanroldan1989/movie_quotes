@@ -1,6 +1,4 @@
-<div align="left">
-  <a href="https://github.com/juanroldan1989/movie_quotes"><img width="136" src="https://github.com/juanroldan1989/movie_quotes/raw/master/icons/icon3.png" alt="movie_quotes ruby logo" /></a>
-</div>
+<img src="https://media.giphy.com/media/IntCEdOCoB1Pa/giphy.gif" width="100%" />
 
 # MovieQuotes
 [![Gem Version](https://badge.fury.io/rb/movie_quotes.svg)](https://badge.fury.io/rb/movie_quotes)
@@ -11,7 +9,11 @@
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 <!-- [![Dependency Status](https://gemnasium.com/badges/github.com/juanroldan1989/movie_quotes.svg)](https://gemnasium.com/github.com/juanroldan1989/movie_quotes) -->
 
-Ruby client for [MovieQuotes](https://movie-quotes-app.herokuapp.com) API
+Ruby client for **MovieQuotes API**
+
+Docs [here](https://juanroldan.com.ar/movie-quotes-api)
+
+[Example app](http://moviequotes.rocks)
 
 ## Features
 
